@@ -1,0 +1,22 @@
+{
+  "name": "vluebridge/sms-engine",
+  "description": "The SMS engine provides a way to send any SMS message to any mobile number and provide abstraction to SMS suppliers so it just works.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vernard Alexis Luz",
+      "email": "vernard@vluebridge.com"
+    }
+  ],
+  "require": {
+      "php": "^5.5",
+      "guzzlehttp/guzzle": "^7.2",
+      "vluebridge/utils": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vluebridge\\": "src/"
+    }
+  }
+}
